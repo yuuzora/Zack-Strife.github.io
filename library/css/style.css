@@ -232,10 +232,6 @@ color :red;
 	display: block;
 }
 
-/*#slide-out {
-	background: rgba(0,0,0,0.5);
-	color: white;
-}*/
 .home .container a.social {
 	margin-top: 20px;
 	color: black;
@@ -246,4 +242,63 @@ color :red;
 	margin: auto;
 	margin-top: 2em;
 	text-align: center;
+}
+
+
+@media (max-width: 1280px) and (min-width: 1080px) { 
+	.main .container {
+		padding-top : 4%;
+	}
+	.home h1, .main h1 {
+ 		font-size: 4em;
+ 	}
+ 	.description .menu {
+ 		width: 100%;
+ 	}
+}
+@media (max-width: 1080px) {
+ 	.home {
+ 		background: url(../../pictures/background1024.png) center fixed ;
+ 		background-size: cover;
+ 	}
+ 	.main {
+		background: url('./../../pictures/backgroundMenu1024.jpg') center fixed;
+		background-size: cover;
+	}
+	.description {
+		background: url('../../pictures/background31024.jpg') center fixed;
+		background-size: cover;
+	}
+}
+@media (max-width: 600px) { 
+	.home h1, .main h1 {
+ 		font-size: 3em;
+ 	}
+ 	.home .container p {
+ 		font-size: 1em;
+ 	}
+ 	.main .container .collection a {
+ 		font-size: 1.5em;
+ 	}
+ 	.main .container .collection {
+ 		width: 100%;
+ 	}
+ 	.main .container .collection {
+ 		margin: 0.5em;
+ 	}
+ 	.main .container .button {
+ 		margin-top: 1em;
+ 	}
+ 	.description .container {
+ 		width: 100%;
+ 	}
+ 	.description h2 {
+ 		font-size: 3em;
+ 	}
+ 	.row .col.s12.white {
+ 		height: 100%;
+ 	}
+ 	.description .menu {
+ 		width: 100%;
+ 	}
 }
