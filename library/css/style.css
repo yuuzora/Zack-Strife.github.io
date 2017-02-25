@@ -58,11 +58,9 @@ body {
 	width: 100%;
 	display: block;
 	position: absolute;
-	/*background: url('../../pictures/background2.png') center no-repeat fixed;*/
 	color: white;
-	/*background: url('../../pictures/background.png') center no-repeat fixed;*/
 	background-color: #0F183A;
-	background: url('./../../pictures/backgroundtest2.jpg') center no-repeat fixed;
+	background: url('./../../pictures/background2.jpg') center no-repeat fixed;
 
 }
 .main .container {
@@ -100,7 +98,7 @@ body {
 	z-index: 4;
 	display: none;
 	height: 100vh;
-	background: url('../../pictures/background2.jpg') center no-repeat fixed;
+	background: url('../../pictures/background3.jpg') center no-repeat fixed;
 	/*background: url('../../pictures/background.png') center no-repeat fixed;*/
 	/*background-color: #0F183A;*/
 }
