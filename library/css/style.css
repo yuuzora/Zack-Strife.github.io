@@ -271,6 +271,9 @@ color :red;
 	}
 }
 @media (max-width: 600px) { 
+	.home .container {
+		width: 100%;
+	}
 	.home h1, .main h1 {
  		font-size: 3em;
  	}
@@ -278,16 +281,17 @@ color :red;
  		font-size: 1em;
  	}
  	.main .container .collection a {
+ 		padding: 25px 20px;
  		font-size: 1.5em;
  	}
  	.main .container .collection {
  		width: 100%;
  	}
  	.main .container .collection {
- 		margin: 0.5em;
+ 		margin-top: 2em;
  	}
  	.main .container .button {
- 		margin-top: 1em;
+ 		margin-top: 2em;
  	}
  	.description .container {
  		width: 100%;
