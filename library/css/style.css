@@ -322,5 +322,7 @@ color :red;
  	.row .col.s12.white {
  		padding: 1em;	
  	}
- 	
+ 	.description .collapsible {
+		margin-bottom: 1.5em;
+ 	}
 }
