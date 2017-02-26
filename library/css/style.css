@@ -272,7 +272,7 @@ color :red;
 		background-size: cover;
 	}
 }
-@media (max-width: 600px) { 
+@media (max-width: 1024px) { 
 	.home .container {
 		width: 100%;
 		padding-top: 10%;
@@ -308,4 +308,19 @@ color :red;
  	.description .menu {
  		width: 100%;
  	}
+}
+@media (max-width: 600px) { 
+	.home h1, .main h1 {
+ 		font-size: 2.5em;
+ 	}
+ 	.home .container p {
+ 		width: 80%;
+ 	}
+ 	.main .container .collection a {
+ 		font-size: 1.5em;
+ 	}
+ 	.row .col.s12.white {
+ 		padding: 1em;	
+ 	}
+ 	
 }
